@@ -16,9 +16,11 @@ pip install requests
 pip install pytest
 pip install pytest-flask 
 ``` 
-
-- Salva a lista de pacotes instalados 
-- no arquivo requirements.txt
+ou se houver o arquivo requeriments.txt
+```
+pip install -r requeriments.txt
+```
+- Salva a lista de pacotes instalados no arquivo requirements.txt
 - Isso permite que outars pessoas isntalem as mesmas versões 
 ```python
 pip freeze > requirements.txt
