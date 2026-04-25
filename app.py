@@ -2,7 +2,7 @@
 
 
 # Importa a classe Flask do pacote Flask
-from flask import Flask
+from flask import Flask, render_template
 
 # Cria a instância 
 #__name__ diz ao Flask onde está a raiz do projeto
@@ -16,7 +16,7 @@ app.config['SECRET_KEY'] = 'trocar_senha'
 # http://localhost:5000 , retorna Olá
 @app.route ('/')
 def index():
-    return 'Olá, Flask Funcionando'
+    return render_template('index.html')
 
 # Debug 
 if __name__ == '__main__':
