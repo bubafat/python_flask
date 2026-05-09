@@ -21,10 +21,10 @@ ou se houver o arquivo requeriments.txt
 pip install -r requeriments.txt
 ```
 - Salva a lista de pacotes instalados no arquivo requirements.txt
-- Isso permite que outars pessoas isntalem as mesmas versões 
+- Isso permite que outras pessoas instalem as mesmas versões 
 ```python
 pip freeze > requirements.txt
 ```
 
 ## Criar o arquivo .gitignore
-- Diz ao git quais arquivos e pastas **NÂO devem ser versionados**  
+- Diz ao git quais arquivos e pastas **NÃO devem ser versionados**  
